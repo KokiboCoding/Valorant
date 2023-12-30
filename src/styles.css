@@ -1,0 +1,96 @@
+body {
+  background: lightgrey;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  margin-bottom: -50px;
+  color: darkred;
+}
+h3 {
+  text-align: center;
+  color: grey;
+  font-family: sans-serif;
+}
+.darkTheme {
+  background: black;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.darkTheme:hover {
+  background-color: red;
+  color: black;
+}
+.valbody {
+  width: 90%;
+  max-width: 500px;
+  background: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 35px 35px;
+  margin-bottom: 50px;
+}
+
+.valorant {
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 30px;
+}
+.grid {
+  margin: auto;
+  padding: 45px;
+  display: grid;
+  width: 800px;
+  grid-template-columns: repeat(2, 200px);
+  grid-gap: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+.summary {
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.grid img:hover {
+  transform: scale(1.5);
+}
+.ending {
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.valbutton {
+  background: pink;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+a:visited {
+  color: black;
+}
+.dark {
+  background: black;
+}
+.dark .valbody {
+  background: linear-gradient(
+    98.3deg,
+    rgb(0, 0, 0) 10.6%,
+    rgb(255, 0, 0) 97.7%
+  );
+  color: white;
+}
+.dark .valbutton {
+  background: red;
+}
